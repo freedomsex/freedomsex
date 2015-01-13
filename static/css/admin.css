@@ -1,0 +1,311 @@
+html, body { 
+  height: inherit; 
+  width: inherit; 
+  font-size: 13px; 
+}     
+
+#cent {
+  margin: 8px auto; 
+  width: 700px;
+}
+
+#router {         
+  position: relative;
+  padding: 5px 2px; 
+  font-size: 14px; 
+  border-bottom: 1px solid #EEE; 
+  margin: 0 0 5px; 
+  color: #999;
+}
+
+#outside {
+  float: right; 
+  color: #999;  
+  text-decoration: none;
+}
+
+.link_simple.gray{ 
+  color: #999;
+} 
+  
+.link_simple.gray:hover{ 
+  color: #333;              
+} 
+
+table, tbody, tr, td {
+  margin: 0; padding: 0; border: 0;    
+}
+
+#pro_comm {
+  border-collapse: collapse; 
+}
+
+table.users { 
+  width: 100%;              
+}  
+   
+table.users td { 
+              
+} 
+
+/* строки и цвета линий */
+
+.bg_red {
+  background: #FFD1B3;
+} 
+.bg_grn {
+  background: #D9FFB3;
+} 
+.bg_mgn {
+  background: #F2D9F2;
+}
+.bg_yel {
+  background: #FFF0B3;
+}
+.bg_gra {
+  background: #f5f5f5;
+} 
+.bg_blu {
+  background: #CCCCFF;
+} 
+                                             
+.bg_ored {                                   
+  background: #FFE0CC;                        
+} 
+.bg_ogrn {
+  background: #DAFFB3;
+} 
+.bg_omgn {
+  background: #FFF2E5;
+}
+.bg_oyel {
+  background: #FFFFCC;
+}
+.bg_ogra {
+  background: #f7f7f7;
+} 
+.bg_oblu {
+  background: #CCD6FF;
+} 
+
+.br_red {
+  border-color: #FF9999;
+} 
+.br_grn {
+  border-color: #ACE600;
+} 
+.br_mgn {
+  border-color: #DDBBDD;
+}
+.br_yel {
+  border-color: #FFD633;
+}   
+.br_blu {
+  border-color: #9999FF;
+} 
+.br_gra {
+  border-color: #CCC;
+} 
+.br_ogra {
+  border-color: #EEE;
+} 
+
+ 
+.bg_dblu {
+  background: #6F92D8;
+} 
+.bg_dgrn {
+  background: #A1D067;
+} 
+.bg_dgra {
+  background: #CCC;
+}  
+.bg_dyel {
+  background: #FFD633;
+}
+
+
+.line_stnd {
+  font-size: 13px;  
+  color: #666;
+  margin-bottom: 3px; 
+  padding: 10px 10px;  
+}
+
+.line_mini {
+  font-size: 13px;  
+  color: #666;
+  margin-bottom: 3px; 
+  padding: 5px 10px;  
+} 
+
+.line_micro {
+  font-size: 11px;  
+  color: #333; 
+  margin-bottom: 3px; 
+  padding: 7px 10px;  
+} 
+
+.line_nano {
+  font-size: 12px; 
+  color: #777; 
+  margin-bottom: 3px; 
+  padding: 3px 5px;  
+} 
+
+.brdbtn {
+  border-width: 0 0 1px 0;
+  border-style: solid; 
+} 
+
+.brdlft {
+  border-width: 0 0 0 4px;
+  border-style: solid; 
+} 
+
+.brdlftcub {
+  border-width: 0 0 0 4px;
+  border-style: solid; 
+} 
+   
+
+#menu {
+  border: 0px solid #EEE; 
+  margin: 10px 0px 12px;
+}  
+
+.btn_menu {
+  display: inline-block;      
+  font-size: 15px;
+  color: #FFF; 
+  padding: 10px 10px; 
+  text-align: center;  
+  text-decoration: none;   
+  border-radius: 0px;   
+  margin-bottom: 3px;
+  
+}  
+   
+
+#page_cont {
+  border: 2px solid #EEE; 
+  border-width: 2px 1px 1px 3px ;
+}   
+ 
+#page_menu {
+  display: inline-block;   
+  background: #EEE;  
+  padding: 7px 20px;   
+  color: #999; 
+  border-bottom-right-radius: 2px;
+} 
+ 
+#caption {
+  margin-bottom: 10px; 
+  font-size: 16px; 
+} 
+
+#inner_block {
+  margin: 20px 20px 25px;  
+} 
+
+
+.inner_menu {    
+  font-size: 12px;  
+} 
+
+.reference {
+  font-size: 14px; 
+  margin-bottom: 15px; 
+  color: #777;
+}
+
+
+
+.btn_rating {
+  text-align: center;  
+}
+
+.rating_arrow {         
+  display: inline-block;
+  background: url(/img/icon/sprit_adm.png) no-repeat center;  
+  width: 22px;
+  height: 12px;
+  cursor: pointer;
+}
+        
+.revs_up, 
+.rating_up {          
+  background-position: 0 -24px;   
+}        
+.revs_down,
+.rating_down {          
+  background-position: 0 -36px;   
+}
+   
+         
+.revs_up:hover,
+.rating_up:hover {          
+  background-position: 0 0px;   
+}           
+.revs_down:hover,
+.rating_down:hover {          
+  background-position: 0 -12px;   
+}
+       
+     
+.comm_cn {          
+  font-weight: bold; 
+  margin-right: 10px; 
+  font-size: 13px;  
+}  
+    
+.comm_info {          
+  margin-left: 10px;   
+}     
+
+
+
+.comm_arrow {         
+  display: inline-block;
+  background: url(/img/icon/sprit_adm.png) no-repeat center;  
+  width: 15px;
+  height: 9px;        
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+ 
+.comm_up {          
+  background-position: 0 -66px;   
+}      
+.comm_down {          
+  background-position: 0 -74px;   
+}
+   
+        
+.comm_up:hover {          
+  background-position: 0 -49px;   
+}
+.comm_down:hover {          
+  background-position: 0 -57px;   
+}     
+       
+.idea {
+  padding: 10px 10px 12px;
+  margin-bottom: 10px;
+  border-top: 1px solid #CCCCCC;
+  background: #FFC;
+  font-size: 14px;
+  color: #333;
+}     
+       
+.review {
+  padding: 10px 10px 12px;
+  margin-bottom: 10px;
+  border-top: 1px solid #CCCCCC;
+  background: #f7f7f7;
+  font-size: 13px;
+  color: #333;
+}       
+        /*-top-left border-top-right-radius: 5px; Система безопасности :: */

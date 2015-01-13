@@ -1,0 +1,837 @@
+html, body { height:100%; width:100%; }     
+
+body {
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  background: #FCFCFC ;
+}
+ 
+a { /* --- Slow motion ---*/
+  color: #06C;
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+form { margin: 0px; padding: 0px; }
+textarea { margin: 0px; width: 100%; display: block; min-height: 70px; padding-bottom: 9px; resize: vertical; }
+    
+.bg_red {
+  background: #FFD1B3;
+} 
+.bg_grn {
+  background: #D9FFB3;
+} 
+.bg_mgn {
+  background: #F2D9F2;
+}
+.bg_yel {
+  background: #FFF0B3;
+}
+.bg_gra {
+  background: #f5f5f5;
+} 
+.bg_blu {
+  background: #CCCCFF;
+} 
+                                             
+.bg_ored {                                   
+  background: #FFE0CC;                        
+} 
+.bg_ogrn {
+  background: #;
+} 
+.bg_omgn {
+  background: #FFF2E5;
+}
+.bg_oyel {
+  background: #FFFFCC;
+}
+.bg_ogra {
+  background: #f7f7f7;
+} 
+.bg_oblu {
+  background: #CCD6FF;
+} 
+
+.br_red {
+  border-color: #FF9999;
+} 
+.br_grn {
+  border-color: #ACE600;
+} 
+.br_mgn {
+  border-color: #DDBBDD;
+}
+.br_yel {
+  border-color: #FFD633;
+}   
+.br_blu {
+  border-color: #9999FF;
+} 
+.br_gra {
+  border-color: #CCC;
+} 
+.br_ogra {
+  border-color: #EEE;
+}   
+
+.cl_red {
+  color: #FF9999;
+} 
+.cl_grn {
+  color: #ACE600;
+} 
+.cl_mgn {
+  color: #DDBBDD;
+}
+.cl_yel {
+  color: #FFD633;
+}   
+.cl_blu {
+  color: #9999FF;
+} 
+.cl_gra {
+  color: #CCC;
+} 
+
+/* -- Маркеры онлайн, поиска -- */ 
+.elem_online,
+.elem_time,
+.elem_your {
+  width: 75px;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  padding: 1px 0px ;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 1px solid #999;
+  color: #999;
+}
+
+.elem_your { /* green color -- это вы */
+     color: #66CC00;
+     border-color: #66CC00;
+}
+
+.left_vision {
+  float: right;
+}
+ 
+.elem_online {
+  border: 1px solid #F90;
+  color: #F90;
+}  
+ 
+.search { color: #666; font-size: 12px; text-decoration: none; margin-left: 10px; }
+.search:hover { color:  #444; }
+
+/* -- Маркеры онлайн, поиска -- */   
+    
+
+
+/* --- Социальные сети, метки --- */ 
+.social_lab {
+     width:12px;height:12px;
+     display: inline-block;
+     position: relative;
+     bottom: -2px;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.vk { background: url(/img/icon/ct_vk_gr.png) no-repeat left center; }
+.sk { background: url(/img/icon/ct_sk_gr.png) no-repeat left center; }
+.ok { background: url(/img/icon/ct_ok_gr.png) no-repeat left center; }
+.fb { background: url(/img/icon/ct_fb_gr.png) no-repeat left center; }
+.ph { background: url(/img/icon/ct_ph_gr.png) no-repeat left center; }
+.em { background: url(/img/icon/ct_em_gr.png) no-repeat left center; }
+.go { background: url(/img/icon/ct_go_gr.png) no-repeat left center; } 
+/* --- Социальные сети, метки --- */ 
+
+
+
+/*----- Список контактов -----*/     
+    
+     
+    
+/*----- menu user -----*/
+div.menu_user_outer {
+    background: #252525 ;
+    box-shadow: rgba(0, 0, 0, 0.251) 0px 2px 3px 0px;
+    text-align: center;
+    padding: 0 ;
+    height: 40px;
+    margin: 0 0 0 0;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 1000;
+}
+
+div.menu_user_outer a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #f2f2f2;
+}
+
+div.menu_user_outer a:hover {
+  color: #fff;
+}
+
+div.menu_user_inner {
+  margin: 0px auto;
+  padding: 0;
+  width: 1086px;
+  background: #252525 ;
+    text-align: left;
+  overflow: hidden;
+}
+
+#home_page {
+  width: 150px;
+  display: inline-block;
+  margin: 12px 0 0;
+  float: left;
+} 
+
+ul.menu_user,
+ul.menu_user li,
+ul.menu_user_right,
+ul.menu_user_right li {
+    list-style:none;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin:  0;
+}
+
+ul.menu_user_right {
+    float: right;
+}
+
+ul.menu_user li a:hover {
+  background: #555 ;
+}
+
+li.menu_user_link a,
+li.menu_user_link_search a,
+li.menu_user_link_exit a,
+li.menu_user_link_shop a  {
+  display: inline-block;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 10px;
+}
+
+li.menu_user_link img {
+  vertical-align: middle;
+  position: relative;
+  bottom:  1px ;
+}
+
+li.menu_user_link_exit {
+  float: left;
+}
+
+li.menu_user_link_exit a:hover {
+  background: #555 ;
+}
+
+li.menu_user_name_string a {
+  color: #CCC;
+  margin: 0px 5px;
+  line-height: 40px;
+   border-bottom: 1px dashed #999;
+}        
+
+li.menu_user_link_shop a {
+  color: #999;
+  font-size: 13px;
+  padding-right: 15px;
+}      
+
+li.menu_user_link_ear {
+  width: 350px; 
+}
+          
+/* ---------------------*/
+
+
+/* -- block_static_tip --*/
+#block_static_tip {
+  color: #fff;    
+  width: 688px;  
+  background: #66CC00;
+  font-size: 14px;
+  display: block;
+  padding: 10px 20px;
+  font-weight: normal;
+  border-radius: 0px;
+  background-image: -webkit-linear-gradient(top, #89D363, #669933);
+   text-shadow: 0 1px 1px #777;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
+}
+
+#block_static_tip u {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px dashed #fff;
+}    
+/* -- block_static_tip --*/
+
+ 
+ 
+/*----- center window messages/intro ----*/
+   
+
+#index_cent {
+  width: 728px;     
+  float: left;   
+  position: relative;
+  min-height: 100%;    
+  background: #FFF;
+   box-shadow: rgba(0, 0, 0, 0.251) 0px 2px 2px 0px;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+ }
+ 
+#earlap {          
+  width: 1067px;   
+  margin: 0 auto;  
+  border: 0px solid blue;
+
+}   
+
+
+
+/* -- Гипер чат -- */
+
+#giper_chat {       
+  float: right;   
+  width: 320px; 
+  margin-top: 40px; 
+  padding-top: 5px;
+}  
+
+#giper_reply {       
+  display: none; 
+  background: #f0f1f3; 
+  border: 1px solid #d3d6db;
+  border-width:  0px 0px 1px; 
+  color: #FFF; 
+  padding: 7px 10px 7px; 
+  margin-bottom: 7px; 
+  max-width: 280px;
+}  
+
+#giper_reply textarea {       
+  display: none; 
+  width: 274px; 
+  min-height: 30px; 
+  margin-bottom: 5px;
+}  
+
+
+
+@media (max-width: 1100px) {  
+  #earlap {        
+    width: 728px;   
+  } 
+  #giper_chat {     
+    display: none;
+  }
+  div.menu_user_inner {
+    width: 728px;
+  }
+  li.menu_user_link_ear {
+    width: 0px; 
+  }  
+}
+
+
+/*----- end center ----*/
+  
+.clearFix::after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+
+ 
+/*----- Строка в поиске ----*/
+
+.user {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #444 ;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 0px 10px;
+  padding: 12px 7px;
+  position: relative;
+}
+
+.user a.mail_link {
+   text-decoration: none;
+}
+ 
+.user.gray {
+  color: #D9D9D9;
+} 
+
+/* --- Маркеры ---*/ 
+span.name { color: #444; text-decoration: none; }
+span.age { color: #EA4D00; text-decoration: none; }
+span.town { color: #0080FF; text-decoration: none; border-bottom: 0px dashed #0080FF; }
+
+.gray span.name { color: #999; text-decoration: none; }
+.gray span.age { color: #CCC; text-decoration: none; }
+.gray span.town { color: #CCC; text-decoration: none; border-bottom: 0px dashed #0080FF; }
+   
+ /* list_php список контактов */            
+a.name { color: #333; text-decoration: none; }
+a.name:hover {  color: #000;  }
+ /* list_php список контактов */ 
+ 
+.inti_lab { text-decoration: none; color: #FF66FF; font-size: 11px; margin-left: 10px; }
+.virt_lab { text-decoration: none; color: #66CC00; font-size: 11px; margin-left: 10px; }
+.feti_lab { text-decoration: none; color: #FF9999; font-size: 11px; margin-left: 10px; }
+.bdsm_lab { text-decoration: none; color: #999999; font-size: 11px; margin-left: 10px; } 
+
+/* --- Маркеры ---*/ 
+
+
+#flov_message {
+  display: block; 
+  text-align: left; 
+  position:fixed; 
+  left: 10px; 
+  bottom: 20px; 
+  border: 0px solid #FF0000;  
+   z-index: 1001;
+}
+
+.new_message textarea {
+  display: none; 
+  margin: 3px 10px 5px; 
+  width: 274px; 
+  min-height: 40px;  
+}
+
+.new_message .user_name {
+  color: green;  
+}
+
+.new_message .sound {
+  display:block; width:1px; height:1px;  
+}
+
+.notepad,
+.new_client,
+.reply_mess, 
+.new_message { 
+  display: none;  
+  border: 1px solid #FF9430;  
+  overflow: hidden;  
+  margin-bottom: 3px; 
+  background: #fff;
+  border-radius: 2px;    
+  width: 300px;  
+}
+
+.notepad {       
+  display: none; 
+  position:fixed; 
+  right: 10px; 
+  bottom: 10px;  
+  width: 320px; 
+  height: 350px;   
+   z-index: 777;    
+}       
+
+.reply_mess {     
+  position: relative;   
+  display: block;    
+  border: 1px solid #333;   
+}
+     
+.reply_line input{
+  margin: 0px 5px;       
+  vertical-align: middle;
+  position: relative;
+  bottom: 2px;
+}     
+          
+.reply_line ,
+.note_line {      
+  display: block;        
+  padding: 10px 5px; 
+  border-bottom: 1px solid #D4D4D4; 
+  cursor: pointer;      
+}
+
+.line_on { background: #f2f2f2; }
+
+.note_line:hover {  
+  background: GhostWhite;     
+}
+
+.new_client {    
+  border: 1px solid #4e69a2;      
+}
+ 
+.old_message {    
+  border: 1px solid #339900;      
+}
+
+.notepad {    
+  border: 1px solid #999999;      
+}
+
+.server_mess {    
+  border: 1px solid #333;      
+}
+
+.air_user {    
+  border: 1px solid #CC3399;      
+}
+             
+.new_client .title,
+.new_message .title { 
+  border-bottom: 0px solid #FBB; 
+  background: #FF9430; 
+  padding: 5px 10px; 
+  color: white;    
+   border-radius: 0px 0px 0 0 ;       
+  cursor: move;  
+}   
+
+.new_client .title {    
+  background: #4e69a2;      
+}  
+ 
+.old_message .title {    
+  background: #339900;      
+}
+
+.notepad .title {    
+  background: #999999;      
+}  
+
+.server_mess .title {    
+  background: #333;       
+} 
+
+.reply_mess .title {    
+  background: #333;       
+} 
+
+.air_user .title {    
+  background: #CC3399;       
+}
+       
+.new_client .close,
+.new_message .close { 
+  font-weight: bold;      
+  color: white;
+  position:absolute; 
+  right: 5px;    
+  padding: 5px; 
+  top: 0px;  
+  cursor: pointer; 
+}
+
+.new_message .bunn {  
+  color: white;   
+  background: #FF751A;
+  position:absolute; 
+  right: 30px;    
+  padding: 0 3px; 
+  top: 5px;  
+  cursor: pointer; 
+  border-radius: 3px;
+  border: 1px solid #FFBA7A; 
+  font-size: 10px;
+}   
+
+.old_message .bunn {    
+  background: #2B8000;      
+  border: 1px solid #3CB300;
+}
+
+.notepad .bunn {    
+  background: #8C8C8C;      
+  border: 1px solid #A6A6A6;
+}
+
+.reply_mess .bunn {    
+  background: #262626;      
+  border: 1px solid #8A8A8A;
+}
+
+.new_message .tbody {
+  padding: 10px 10px 7px;  
+}
+          
+.timer { 
+  display: block; 
+  position:absolute; 
+  right: 0; 
+  top: 150px; 
+  background: ; 
+  color: #fff; 
+}
+
+
+
+
+
+
+           
+.link_simple,
+.link_dashed,
+.link_underline {
+  color: #06C;   
+  text-decoration: none;
+  cursor: pointer;
+}  
+  
+.link_underline { 
+  text-decoration: underline; 
+} 
+  
+.link_dashed {   
+  border-bottom: 1px dashed #06C; 
+}  
+
+.color_gray {
+  color: #999;
+} 
+
+#mess_text_val {
+  max-width: 429px;
+}
+ 
+
+ 
+.she_chat_inline { 
+  display: none;      
+  position: relative; 
+  margin: 15px 0 0;  
+  background: #FFF;
+  border: 1px solid #CCC; 
+}  
+
+#she_chats .bunn {   
+  display: block;
+  color: white;   
+  background: #7E92A9;
+  position:absolute; 
+  right: 30px;    
+  padding: 0 7px; 
+  top: 5px;  
+  cursor: pointer; 
+  border-radius: 3px;
+  border: 1px solid #ACB9C8; 
+  font-size: 10px;   
+  text-decoration: none;
+}  
+   
+.she_chat_inline .title {    
+  background: url(/img/icon/she_chats.png) no-repeat 10px 50% #8E9FB4 ;  
+  padding: 5px 5px 5px 30px; 
+  color: #FFF;        
+  font-weight: bold;              
+}  
+
+.she_chat_inline .close {
+  position:absolute; 
+  right: 5px;    
+  top: 4px; 
+  width: 16px; 
+  height: 16px;   
+  background: url(/img/icon/contact_update3.png) no-repeat;
+  cursor: pointer;   
+    
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+}
+
+.rotate { 
+  transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg); 
+}
+   
+#she_chat_lines {    
+  padding: 0px 5px; 
+  margin: 5px 0; 
+  font-size: 12px; 
+  overflow:  hidden;
+  min-height: 40px; 
+  max-height: 150px; 
+  overflow-y: scroll;        
+}  
+
+.chat_line {
+  margin-top: 5px; 
+}
+
+.chat_line i {
+  display: none; 
+  position:absolute; 
+  right: -5px;    
+  top: -5px; 
+  width: 16px; 
+  height: 16px;   
+  background: url(/img/icon/icon_close.png) no-repeat;
+  cursor: pointer;  
+}
+
+.chat_out i {  
+  left: -5px;  
+}
+
+.chat_out {
+  text-align: right; 
+}
+      
+.chat_in span,
+.chat_out span {       
+  position: relative; 
+  text-align: left; 
+  font-size: 11px;
+  max-width: 180px;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px 10px;   
+  background: #E6E6E6; 
+  border: 1px solid #BFBFBF;  
+  cursor: pointer; 
+}
+
+.chat_out span {  
+  background: #CCFF99;   
+}
+
+#chat_line_ex {
+  display: none;
+}
+
+#she_chats_text {
+  width: 120px;
+  font-size: 10px; 
+}
+     
+/* ---------- ajax_suggest --------------- */
+
+#block_town, .block_name {
+    position: absolute;
+    text-align: left;
+  background: White;
+    right: 0px;
+    left: 0px;
+  margin: 0px;
+    border: 1px solid DarkGray;
+  max-height: 320px;
+  overflow-y: auto, scroll;
+  overflow-x: hidden;  /**/
+  z-index: 100;    cursor: pointer;
+}
+
+.town_line {
+    padding: 3px 4px ;
+    font-size: 11px;
+  color: #333;
+}
+
+.town_line b{
+    font-size: 12px;
+}
+
+.town_line i{
+    font-size: 10px;
+}
+
+.town_line:hover {
+  background: DodgerBlue;
+  color: White;
+}
+ 
+/* --- */
+
+.suggest_wrap {
+  display: inline-block; 
+  position: relative; 
+  margin: 0px;
+}
+
+.suggest_block {
+  position: absolute; 
+  display: none; 
+  text-align: left;
+  background: White;
+  right: 0px;
+  left: 0px;
+  margin: 0px;
+  border: 1px solid DarkGray;
+  max-height: 320px;
+  overflow-y: auto, scroll;
+  overflow-x: hidden;  /**/
+  z-index: 100;    
+  cursor: pointer;
+}
+ 
+.suggest_line {
+  padding: 3px 4px ;
+  font-size: 11px;
+  color: #333;
+}    
+
+.suggest_line:hover {
+  background: DodgerBlue;
+  color: White;
+}
+
+.small_loader {
+  display: block; 
+  position: absolute; 
+  right: 3px; 
+  top: 3px; 
+  width: 1px; 
+  height: 1px; 
+  background: url('/img/ajax_clock_small.gif') no-repeat;
+
+}
+   
+/* Большие подсказки */ 
+#part_tip_block { 
+  font-size: 14px;
+  padding: 10px 15px;
+  margin: 0px 0px 15px;
+  background:  ;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+#part_tip_close { 
+  position: absolute; 
+  right: 0; top: 3px; 
+  width: 20px; 
+  min-height: 20px; 
+  font-weight: bold; 
+  color: Gray; 
+  text-decoration: none;
+}
