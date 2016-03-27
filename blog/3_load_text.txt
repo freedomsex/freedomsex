@@ -1,0 +1,35 @@
+  <h1>Варианты текстовых объявлений</h1>
+
+  Вы можете изменить или вставить свой текст в любой из них,
+  а можно просто распечатать готовый, который понравится больше.</b>
+  <br /><br />
+
+  <b>1. &laquo;<a href='%%SITE%%/blog/doc/qbsex_in_your_city.doc' target='_blank'>Секс в твоём городе</a>&raquo;</b>
+
+  <a href='%%SITE%%/blog/doc/qbsex_in_your_city.doc' target='_blank'>
+   <img src="%%SITE%%/blog/img/qbsex_in_your_city.jpg" width="500" height="" alt="" class="board">
+  </a>
+
+  Скачать &laquo;Секс в твоём городе&raquo; <a href='%%SITE%%/blog/doc/qbsex_in_your_city.doc' target='_blank'>qbsex_in_your_city.doc</a> (42kb)
+  <br /><br /><br />
+
+
+  <b>2. &laquo;<a href='%%SITE%%/blog/doc/man_for_qbsex.doc' target='_blank'>Парни для секса</a>&raquo;</b>
+
+  <a href='%%SITE%%/blog/doc/man_for_qbsex.doc' target='_blank'>
+   <img src="%%SITE%%/blog/img/man_for_qbsex.jpg" width="500" height="" alt="" class="board">
+  </a>
+
+  Скачать &laquo;Парни для секса&raquo; <a href='%%SITE%%/blog/doc/man_for_qbsex.doc' target='_blank'>man_for_qbsex.doc</a> (44kb)
+  <br /><br /><br />
+
+  Файлы содержат две страницы. На одной текст объявлений, на другой инструкция.
+  При печати удалите текст инструкции, чтобы он случайно не попал в печать.
+  <br /><br />
+
+  <a href="%%REVIEWS_SEND%%">%%REVIEWS_TEXT%%</a>
+
+
+
+
+

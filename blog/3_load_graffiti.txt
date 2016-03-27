@@ -1,0 +1,33 @@
+  <h1>Трафареты для граффити</h1>
+
+  Готовые трафареты для граффити, пока один. Присылайте ещё свои варианты
+  нам на почту <b>advert@freedomsex.net</b>
+  <br /><br />
+
+  <div style="padding: 10px; border: 1px dashed red;">
+    Короткие адреса
+     <a href="%%SHORTY%%">oesex.ru</a>,
+     <a href="%%SHORTY%%">sexoo.ru</a> или
+     <a href="%%SHORTY%%">qbsex.ru</a>  удобнее
+
+  </div>  <br />
+
+
+  <b>1. &laquo;<a href='%%SITE%%/blog/doc/sex_in_your_city.doc' target='_blank'>Знакомства для секса</a>&raquo;</b>
+
+  <a href='%%SITE%%/blog/doc/for_sex.jpg' target='_blank'>
+   <img src="%%SITE%%/blog/img/for_sex.jpg" width="500" height="" alt="" class="board">
+  </a>
+
+  Скачать &laquo;Знакомства для секса&raquo; картинкой <a href='%%SITE%%/blog/doc/for_sex.jpg' target='_blank'>for_sex.jpg</a> (207kb)<br />
+  Скачать &laquo;Знакомства для секса&raquo; для фотошопа <a href='%%SITE%%/blog/doc/for_sex.psd' target='_blank'>for_sex.psd</a> (2.1Mb)
+
+  <p>Файл формата .psd открывается программой <b>Adobe Photoshop</b> - она должна быть установлена на вашем компьютере.</p>
+
+
+  <a href="%%REVIEWS_SEND%%">%%REVIEWS_TEXT%%</a>
+
+
+
+
+

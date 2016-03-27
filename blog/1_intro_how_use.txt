@@ -1,0 +1,119 @@
+  <h1>Способ знакомства</h1>
+
+  Сайт работает как способ знакомства, при котором парни предлагают секс в реальности, а девушки выбирают и знакомятся
+  с этими парнями заходя на сайте по ссылке.<br><br>
+
+  Ссылка на сайт размещается на видном месте как обычное объявление у подъезда, на остановке, в лифте или на стене дома.
+
+  <p>Пришедшие на сайт девушки будут изначально заинтересованы в сексе, в поисках сексуального партнёра,
+  общения без купюр.</p>
+   
+  <img class="left" src="/blog/img/qbsex_example.jpg" width="180" height="" alt="" border="0">
+
+  Анкета девушки появляется в результатах поиска как только она зайдёт на сайт - регистрация автоматическая.
+  Это позволяет найти девушку для секса даже в соседнем доме и за пару часов.<br><br>
+
+  Ссылка делается при помощи <a href="%%HOW_MADE_ADVERT%%">обычного объявления</a> с заголовком &laquo;Парни для секса&raquo;. Можно написать маркером на стене, в лифте,
+  в автобусе или на остановке, краской на асфальте, как угодно.<br><br>
+
+  И чем заметнее будет ваше &laquo;Объявление&raquo;, тем больше девушек именно из вашего города, двора или района появится на сайте
+  уже сегодня.<br><br>
+
+  <a href="%%REVIEWS_SEND%%">%%REVIEWS_TEXT%%</a>
+  
+  <style type="text/css"> 
+      
+
+  </style>
+  
+  
+  <div style="margin-top: 30px; padding: 15px 0; ">
+           
+  <div class="message_list_title_date" style="margin-bottom: 10px; ">
+   <span> Отзывы </span>
+  </div>
+  
+ <script>
+    var thisPageNum = 1;
+    var thisWork = 1;
+    function getNextP(){ 
+     if( thisWork ) {
+         thisWork = 0; 
+         var url = 'http://sexoo.ru/ajax/html/mess_link_shab_text.htm?callback=?'; //+thisPageNum
+         $.getJSON(url, { dataType: "text" }, function(data){ 
+           $("#LoadDiv").html( $("#LoadDiv").html() + " "+data);
+           thisPageNum = thisPageNum++;
+           thisWork = 1;
+         });
+      }
+    }
+    
+    $(document).ready(function(){   
+    
+    var scrH = $(window).height();
+    var scrHP = $("#index_cent").height();
+    
+    
+    $(window).scroll(function(){      
+      var scro = $(this).scrollTop();
+      var scrHP = $("#index_cent").height();
+      var scrH2 = 0;
+      scrH2 = scrH + scro;
+      var leftH = scrHP - scrH2;
+      
+      if(leftH < 300){       //  alert (11)
+       getNextP();        
+      }
+      
+      
+      });
+    });
+</script> 
+      <div id="LoadDiv">  </div> 
+    
+     
+        
+  </div>  
+  
+  <script>
+    function ex_visible(){      // alert ( document.body.clientWidth ) 
+      if ( document.body.clientWidth > 1250 ) {    
+        document.getElementById('ex_block').style.display  = "block"       
+      }
+      else {
+       document.getElementById('ex_block').style.display = "none" 
+      }
+    }
+    window.onresize = function(){ ex_visible(); } 
+    window.onload   = function(){ ex_visible(); }
+ 
+  </script>
+
+  <div id="ex_block" style="position: fixed; top: 40px; left: 5px; border: 0px solid #444; max-height: 100%;
+    bottom: 0; padding: 0px 20px 0 0; display: none;
+    overflow-y: auto, noscroll;
+    overflow-x: hidden;">
+     <img class="ex_left_im" src="http://qbsex.ru/blog/img/ex/good.jpg" alt="" ><br>  
+     <div class="ex_marker">
+          5 коротких названий сайта
+     </div>
+     
+      
+     <img class="ex_left_im" src="http://qbsex.ru/blog/img/ex/buttons_st.jpg" alt="" ><br>
+     <img class="ex_left_im" src="http://qbsex.ru/blog/img/ex/for_girl.jpg" alt="" ><br>  
+     <div class="ex_marker">
+         x69.me - всего 5 символов
+     </div>
+     <img class="ex_left_im" src="http://qbsex.ru/blog/img/ex/gray_door.jpg" alt="" ><br> 
+     <img class="ex_left_im" src="http://qbsex.ru/blog/img/ex/white_lift.jpg" alt="" ><br>  
+     <div class="ex_marker">
+        Элементарно просто, быстро, легко и эффективно!<br>
+        100% анонимно<br>
+     </div>
+     <img class="ex_left_im" src="http://freedomsex.net/blog/img/lift_net.jpg" alt=""><br> 
+     <div class="ex_marker"> <br>
+        Хотите опубликовать фото своего способа здесь? Пришлите фотографию в письме
+        на электронный адрес support@freedomsex.net<br><br>
+     </div>
+  </div>
+ 
