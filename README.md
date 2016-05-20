@@ -11,7 +11,12 @@
 # Я могу
 Присоединяйтесь к совместной разработке свободного проекта, вам будут благодарны миллионы. 
 Вносите любые изменения или переписывайте код так, как считаете нужным. Расширяйте имеющиеся 
-сервисы или предлагайте свои собственные.
+сервисы или предлагайте свои собственные. Запросите нужный код, если он еще не был опубликован.
+- [Информация для разработчиков](https://github.com/tebaly/freedomsex/tree/master/doc)
+- [Новости разработки](https://github.com/tebaly/freedomsex/tree/master/doc/news)
+- [Тексты справки](https://github.com/tebaly/freedomsex/tree/master/blog)
+- [Соглашения](https://github.com/tebaly/freedomsex/tree/master/doc/deal)
+- [Де-юре](https://github.com/tebaly/freedomsex/tree/master/doc/de-jure)
 
 # Как
 Всё очень просто. GitHub - сайт который у вас сейчас открыт, это инструмент, который позволяет 
