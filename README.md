@@ -8,7 +8,7 @@
 Участие в разработке ПО открыто для всех заинтересованных в этом участников Сообщества 
 или сторонних специалистов. 
 
-<a href="/tebaly/freedomsex/issues/new" target="_blank">➤ Задать вопрос или сообщить об ошибке</a>
+[➤ Задать вопрос или сообщить об ошибке](/tebaly/freedomsex/issues/new)
 
 # Я могу
 Присоединяйтесь к совместной разработке свободного проекта, вам будут благодарны миллионы. 
@@ -18,7 +18,7 @@
 - [Новости разработки](https://github.com/tebaly/freedomsex/tree/master/doc/news)
 - [Тексты справки](https://github.com/tebaly/freedomsex/tree/master/blog)
 - [Соглашения](https://github.com/tebaly/freedomsex/tree/master/doc/deal)
-- [Де-юре](https://github.com/tebaly/freedomsex/tree/master/doc/de-jure){:target="_blank"}
+- [Де-юре](https://github.com/tebaly/freedomsex/tree/master/doc/de-jure)
 
 # Как
 Всё очень просто. GitHub - сайт который у вас сейчас открыт, это инструмент, который позволяет 
