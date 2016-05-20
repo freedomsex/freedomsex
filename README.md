@@ -69,7 +69,7 @@ GitHub - инструмент для совместного программир
 На клиенте: JavaScript, JQuery, JQuery-UI, HTML5, Adobe Flash для видеочата.
 
 # Контакты: 
-**support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
+:envelope: Почта: **support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
 
 # FAQ
 
