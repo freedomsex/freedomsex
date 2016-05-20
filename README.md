@@ -68,7 +68,7 @@ GitHub - инструмент для совместного программир
 Сервер: PHP(переход к Symfony2). Базы данных MySQL. 
 На клиенте: JavaScript, JQuery, JQuery-UI, HTML5, Adobe Flash для видеочата.
 
-# :envelope: Контакты: 
+# Контакты: 
 **support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
 
 # FAQ
