@@ -6,6 +6,6 @@
 + 10.06.2016 [Глобальный список правил](https://github.com/tebaly/freedomsex/blob/dev/doc/news/20160610-Глобальный-список-правил.md)
 
 ## Май
-+ 01.05.2016 [Ограничения в арбитраже](https://github.com/tebaly/freedomsex/blob/dev/doc/news/01052016-1.md)
-+ 01.05.2016 [Резиденты сообщества](https://github.com/tebaly/freedomsex/blob/dev/doc/news/01052016-2.md) 
-+ 01.05.2016 [Ачивки](https://github.com/tebaly/freedomsex/blob/dev/doc/news/20160501-Ачивки.md)
++ 01.05.2016 [Ограничения в арбитраже](https://github.com/tebaly/freedomsex/blob/dev/doc/news/01052016-1-20160501-1-Ограничения-в-арбитраже.md.md)
++ 01.05.2016 [Резиденты сообщества](https://github.com/tebaly/freedomsex/blob/dev/doc/news/20160501-2-Резиденты-сообщества.md) 
++ 01.05.2016 [Ачивки](https://github.com/tebaly/freedomsex/blob/dev/doc/news/20160501-3-Ачивки.md)
