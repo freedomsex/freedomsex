@@ -1,7 +1,0 @@
-   <h1>Соглашение о предоставлении услуг</h1>
-
-   <textarea wrap="soft" style="width: 100%; height: 300px;">%%TEXT_OF_AGREMENT%%
-   </textarea> <br><br><br>
-
-
-   <a href="%%REVIEWS_SEND%%">%%REVIEWS_TEXT%%</a>
