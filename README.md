@@ -14,11 +14,11 @@
 Присоединяйтесь к совместной разработке свободного проекта, вам будут благодарны миллионы. 
 Вносите любые изменения или переписывайте код так, как считаете нужным. Расширяйте имеющиеся 
 сервисы или предлагайте свои собственные. Запросите нужный код, если он еще не был опубликован.
-- [Информация для разработчиков](https://github.com/tebaly/freedomsex/tree/master/doc)
-- [Новости разработки](https://github.com/tebaly/freedomsex/tree/master/doc/news)
-- [Тексты справки](https://github.com/tebaly/freedomsex/tree/master/blog)
-- [Соглашения](https://github.com/tebaly/freedomsex/tree/master/doc/deal)
-- [Де-юре](https://github.com/tebaly/freedomsex/tree/master/doc/de-jure)
+- [Информация для разработчиков](https://github.com/freedomsex/docs/tree/master)
+- [Новости разработки](https://github.com/freedomsex/docs/tree/master/news)
+- [Тексты справки](https://github.com/freedomsex/docs/tree/master/blog)
+- [Соглашения](https://github.com/freedomsex/docs/tree/master/deal)
+- [Де-юре](https://github.com/freedomsex/docs/tree/master/de-jure)
 
 # Как
 Всё очень просто. GitHub - сайт который у вас сейчас открыт, это инструмент, который позволяет 
@@ -89,7 +89,7 @@ GitHub - инструмент для совместного программир
 # UPD 
 В каждом публикуемом разделе по возможности добавим свой README
 
-[⣿ Список всех новостей разработки](https://github.com/tebaly/freedomsex/tree/master/doc/news)
+[⣿ Список всех новостей разработки](https://github.com/freedomsex/docs/tree/master/news)
 
 [27.03.2016] По запросу, опубликованы тексты "Блога" и файлы вложений в нем используемые
 - запрошены с целью коррекции опечаток, грамматических и пунктуационных ошибок
