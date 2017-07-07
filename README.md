@@ -75,6 +75,8 @@ GitHub - инструмент для совместного программир
 # Контакты 
 **support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
 
+# Благодарность за поддержку
+[BrowserStack](https://www.browserstack.com/) - Live, Web-Based Browser Testing
 
 # FAQ
 
@@ -99,7 +101,3 @@ GitHub - инструмент для совместного программир
 - запрошены с целью коррекции опечаток, грамматических и пунктуационных ошибок
 - как можно видеть, комментарии и вопросы размещены хардкодом, поэтому можно "добавить" свои вопросы и ответы и комментарии
 - планируется переход к мультиязычной платформа, нужна помощь в переводе
-
-# Благодарность за поддержку
-[BrowserStack](https://www.browserstack.com/) - Live, Web-Based Browser Testing
-
