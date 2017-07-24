@@ -76,7 +76,7 @@ GitHub - инструмент для совместного программир
 **support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
 
 # Благодарность за поддержку
-[BrowserStack](https://www.browserstack.com/) - Live, Web-Based Browser Testing
+[BrowserStack](https://www.browserstack.com/) - Live, Web-Based Browser Testing  
 [loading.io](http://loading.io/spinner/heart) - Build Your Ajax Loading Icons
 
 # FAQ
