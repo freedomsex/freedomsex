@@ -12,6 +12,7 @@
 или сторонних специалистов. 
 
 [➤ Задать вопрос или сообщить об ошибке](https://github.com/freedomsex/freedomsex/issues/new)  
+[➤ Кодовая база разбита на несколько репозиториев](https://github.com/freedomsex)
 [➤ Пообщаться с Администраторами в онлайн чате](https://gitter.im/freedomsex/freedomsex)
 
 # Я могу
@@ -69,8 +70,8 @@ GitHub - инструмент для совместного программир
 администрации, но ответ и помощь в решении серьёзных проблем всё же можно получить. 
 
 # Проект использует
-Сервер: PHP(переход к Symfony2). Базы данных MySQL. 
-На клиенте: JavaScript, JQuery, JQuery-UI, HTML5, Adobe Flash для видеочата.
+Сервер: PHP(переход к Symfony3). Базы данных MySQL. 
+На клиенте: JavaScript, VueJS, JQuery, JQuery-UI, HTML5, Adobe Flash для видеочата.
 
 # Контакты 
 **support@freedomsex.net**, admin@freedomsex.net, webmaster@freedomsex.net  
