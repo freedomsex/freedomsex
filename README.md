@@ -1,6 +1,7 @@
 # FreedomSex
 
-[![Join the chat at https://gitter.im/freedomsex/javascript](https://badges.gitter.im/freedomsex/freedomsex.svg)](https://gitter.im/freedomsex/freedomsex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Онлайн чат разработчиков](https://badges.gitter.im/freedomsex/freedomsex.svg)](https://gitter.im/freedomsex/freedomsex?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  [![Форум сообщества](https://img.shields.io/discourse/http/freedomsex.info/status.svg?label=forum)](http://freedomsex.info/)
 
 Код сайта доступен для свободного редактирования или добавления своих наработок. 
 Вы можете быть участником Сообщества и содействовать в улучшении сервисов сайта или же 
